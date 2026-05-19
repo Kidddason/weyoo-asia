@@ -195,6 +195,8 @@ h2.section-title {
 
 /* ===== Stats ===== */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+.stats.stats-single { grid-template-columns: 1fr; }
+.stats.stats-single .stat .num { font-size: 64px; }
 .stat .num { font-size: 40px; font-weight: 800; color: var(--brand); }
 .stat .label { color: var(--muted); font-size: 15px; }
 
